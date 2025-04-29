@@ -4,12 +4,12 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background: #f4f6f9; /* soft neutral background */
-    color: #1e1e1e;
+    background: #f4f6f9;
+    color: black; /* changed */
 }
 header {
-    background: #2c3e50; /* deep blue-gray */
-    color: white;
+    background: #e0e6ed; /* lighter background for contrast */
+    color: black; /* changed from white to black */
     text-align: center;
     padding: 2rem 1rem;
 }
@@ -23,7 +23,7 @@ header .profile-pic:hover {
     transform: scale(1.05);
 }
 nav ul {
-    background: #34495e; /* consistent with header but slightly lighter */
+    background: #d6dbe2; /* lighter nav for black text */
     padding: 0.5rem;
     display: flex;
     justify-content: center;
@@ -33,11 +33,11 @@ nav ul li {
     margin: 0 1rem;
 }
 nav ul li a {
-    color: #ecf0f1;
+    color: black; /* changed from light gray to black */
     text-decoration: none;
 }
 nav ul li a:hover {
-    border-bottom: 2px solid #ecf0f1;
+    border-bottom: 2px solid black;
     transition: border 0.3s ease;
 }
 section {
@@ -53,13 +53,13 @@ section.visible {
     transform: none;
 }
 h2 {
-    border-bottom: 2px solid #2980b9; /* refined blue tone */
+    border-bottom: 2px solid #2980b9;
     padding-bottom: 0.3rem;
-    color: #2c3e50;
+    color: black; /* changed from blue-gray */
 }
 footer {
-    background: #2c3e50;
-    color: white;
+    background: #d6dbe2; /* lighter footer background */
+    color: black; /* changed from white to black */
     text-align: center;
     padding: 1rem;
 }
