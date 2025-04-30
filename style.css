@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     background: #f5faff;
     color: #1a1a1a;
@@ -17,10 +17,6 @@ header .profile-pic {
     width: 150px;
     border-radius: 50%;
     margin-bottom: 1rem;
-    transition: transform 0.3s ease;
-}
-header .profile-pic:hover {
-    transform: scale(1.05);
 }
 nav ul {
     background: #0059b3;
@@ -33,31 +29,21 @@ nav ul li {
     margin: 0 1rem;
 }
 nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-}
-nav ul li a:hover {
-    border-bottom: 2px solid black;
-    transition: border 0.3s ease;
 }
 section {
     padding: 2rem 1rem;
     max-width: 800px;
     margin: auto;
 }
-section.visible {
-    opacity: 1;
-    transform: none;
-}
 h2 {
-    border-bottom: 2px solid #2980b9;
+    border-bottom: 2px solid #0059b3;
     padding-bottom: 0.3rem;
-    color: black;
 }
 footer {
-    background: #d6dbe2;
-    color: black;
+    background: #003366;
+    color: white;
     text-align: center;
     padding: 1rem;
 }
