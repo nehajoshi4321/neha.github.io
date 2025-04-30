@@ -4,12 +4,12 @@ html {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background: #f4f6f9;
-    color: black;
+    background: #f5faff;
+    color: #1a1a1a;
 }
 header {
-    background: #e0e6ed;
-    color: black;
+    background: #003366;
+    color: white;
     text-align: center;
     padding: 2rem 1rem;
 }
@@ -23,12 +23,11 @@ header .profile-pic:hover {
     transform: scale(1.05);
 }
 nav ul {
-    background: #d6dbe2;
+    background: #0059b3;
     padding: 0.5rem;
     display: flex;
     justify-content: center;
     list-style: none;
-    margin: 0;
 }
 nav ul li {
     margin: 0 1rem;
@@ -46,9 +45,6 @@ section {
     padding: 2rem 1rem;
     max-width: 800px;
     margin: auto;
-   /* opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 0.8s ease, transform 0.8s ease;*/
 }
 section.visible {
     opacity: 1;
